@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body >div{
+    display: flex;
+    gap: 10px;
+}
+
+body >div a{
+    padding: 10px;
+    background: yellow;
+    color: black;
+    text-decoration: none;
+}
